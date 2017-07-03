@@ -1,0 +1,266 @@
+/* General Custom CSS */
+footer#socket.container {
+  background-color: #000;
+}
+
+@font-face {
+  font-family: 'entypo-fontello';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot');
+  src: url('../config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot') format('embedded-opentype'),
+  url('../config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff') format('woff'),
+  url('../config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.ttf') format('truetype');
+}
+
+.recentcomments a {
+  display: inline !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#top .avia-font-entypo-fontello,
+body .avia-font-entypo-fontello,
+html body [data-av_iconfont='entypo-fontello']:before {
+  font-family: 'entypo-fontello';
+}
+
+img#wpstats {
+  display: none
+}
+
+.tribe-events-list .tribe-events-loop .tribe-event-featured,
+.tribe-events-list #tribe-events-day.tribe-events-loop .tribe-event-featured,
+.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap,
+.type-tribe_events.tribe-events-photo-event.tribe-event-featured .tribe-events-photo-event-wrap:hover {
+  background-color: #0ea0d7;
+}
+#tribe-events-content table.tribe-events-calendar .type-tribe_events.tribe-event-featured {
+  background-color: #0ea0d7;
+}
+.tribe-events-list-widget .tribe-event-featured,
+.tribe-events-venue-widget .tribe-event-featured,
+.tribe-mini-calendar-list-wrapper .tribe-event-featured,
+.tribe-events-adv-list-widget .tribe-event-featured .tribe-mini-calendar-event {
+  background-color: #0ea0d7;
+}
+.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single {
+  background-color: rgba(14, 160, 215, .7);
+  border-color: #0ea0d7;
+}
+.tribe-grid-body .tribe-event-featured.tribe-events-week-hourly-single:hover {
+  background-color: #0ea0d7;
+}
+/* borders*/
+#av_section_1{}
+#av_section_2{width: 100%;
+    padding: 20px 25px;
+    border-top: 10px solid #EA80B0;
+    margin: 40px auto;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EA80B0), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image:
+        -moz-linear-gradient(#EA80B0, transparent),
+        -moz-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#EA80B0, transparent),
+        -o-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image: 
+        linear-gradient(#EA80B0, transparent),
+        linear-gradient(#EA80B0, transparent)
+    ;
+    -moz-background-size:10px 100%;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;}
+#av_section_4{width: 100%;
+    padding: 20px 25px;
+    border-top: 10px solid #EA80B0;
+    margin: 40px auto;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EA80B0), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image:
+        -moz-linear-gradient(#EA80B0, transparent),
+        -moz-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#EA80B0, transparent),
+        -o-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image: 
+        linear-gradient(#EA80B0, transparent),
+        linear-gradient(#EA80B0, transparent)
+    ;
+    -moz-background-size:10px 100%;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;}
+#av_section_5{width: 100%;
+    padding: 20px 25px;
+    border-top: 10px solid #EA80B0;
+    margin: 40px auto;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EA80B0), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image:
+        -moz-linear-gradient(#EA80B0, transparent),
+        -moz-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#EA80B0, transparent),
+        -o-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image: 
+        linear-gradient(#EA80B0, transparent),
+        linear-gradient(#EA80B0, transparent)
+    ;
+    -moz-background-size:7px 100%;
+    background-size:7px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;}
+#av_section_6{width: 100%;
+    padding: 20px 25px;
+    border-top: 10px solid #EA80B0;
+    margin: 40px auto;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EA80B0), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image:
+        -moz-linear-gradient(#EA80B0, transparent),
+        -moz-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#EA80B0, transparent),
+        -o-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image: 
+        linear-gradient(#EA80B0, transparent),
+        linear-gradient(#EA80B0, transparent)
+    ;
+    -moz-background-size:10px 100%;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;}
+#av_section_7{width: 100%;
+    padding: 20px 25px;
+    border-top: 10px solid #EA80B0;
+    margin: 40px auto;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EA80B0), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image:
+        -moz-linear-gradient(#EA80B0, transparent),
+        -moz-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#EA80B0, transparent),
+        -o-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image: 
+        linear-gradient(#EA80B0, transparent),
+        linear-gradient(#EA80B0, transparent)
+    ;
+    -moz-background-size:10px 100%;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;}
+#av_section_10{width: 100%;
+    padding: 20px 25px;
+    border-top: 10px solid #EA80B0;
+    margin: 40px auto;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EA80B0), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image:
+        -moz-linear-gradient(#EA80B0, transparent),
+        -moz-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#EA80B0, transparent),
+        -o-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image: 
+        linear-gradient(#EA80B0, transparent),
+        linear-gradient(#EA80B0, transparent)
+    ;
+    -moz-background-size:10px 100%;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;}
+/* breast cancer awareness pink code style 
+width: 100%;
+    padding: 20px 25px;
+    border-top: 10px solid #EA80B0;
+    margin: 40px auto;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EA80B0), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image:
+        -moz-linear-gradient(#EA80B0, transparent),
+        -moz-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#EA80B0, transparent),
+        -o-linear-gradient(#EA80B0, transparent)
+    ;
+    background-image: 
+        linear-gradient(#EA80B0, transparent),
+        linear-gradient(#EA80B0, transparent)
+    ;
+    -moz-background-size:10px 100%;
+    background-size:10px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;*/
+/* basic black border
+width: 100%;
+    padding: 20px 25px;
+    border-top: 5px solid #000;
+    margin: 40px auto;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(#000, transparent);
+    background-image:
+        -moz-linear-gradient(#000, transparent),
+        -moz-linear-gradient(#000, transparent)
+    ;
+    background-image:
+        -o-linear-gradient(#000, transparent),
+        -o-linear-gradient(#000, transparent)
+    ;
+    background-image: 
+        linear-gradient(#000, transparent),
+        linear-gradient(#000, transparent)
+    ;
+    -moz-background-size:5px 100%;
+    background-size:5px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat; */
+
+/*gradient school color border
+width: 100%;
+padding: 20px 25px;
+margin: auto;
+background: #eee;
+border: 7px solid transparent;
+-moz-border-image: -moz-linear-gradient(top left, #fecb00, #bed600, #0094b3, #006778, #003d4c);
+-webkit-border-image: -webkit-linear-gradient(top left, #fecb00, #bed600, #0094b3, #006778, #003d4c);
+border-image: linear-gradient(to bottom right, #fecb00, #bed600, #0094b3, #006778, #003d4c);
+border-image-slice: 1;
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 767px) {
+  /* Add your Mobile Styles here */
+
+}
