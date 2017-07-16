@@ -4,6 +4,10 @@
   "private": true,
   "author": "Brunch",
   "version": "0.0.1",
+	"engines": {
+	"node": "6.11.1",
+	"npm": "3.10.10"
+	},
   "scripts": {
     "start": "brunch watch --server",
 		"debug": "brunch build --debug",
