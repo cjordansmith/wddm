@@ -11,8 +11,7 @@
   "scripts": {
     "start": "brunch watch --server",
 		"debug": "brunch build --debug",
-    "build": "brunch build --production",
-		"postinstall": "brunch build --production"
+    "build": "brunch build --optimize"
   },
   "dependencies": {
 		"statik": ">=1.1.0",
