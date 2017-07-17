@@ -4,23 +4,22 @@
   "private": true,
   "author": "Brunch",
   "version": "0.0.1",
-	"engines": {
-	"node": "6.11.1",
-	"npm": "3.10.10"
-	},
+  "engines": {
+    "node": "6.11.1",
+    "npm": "3.10.10"
+  },
   "scripts": {
     "start": "brunch watch --server",
-		"debug": "brunch build --debug",
+    "debug": "brunch build --debug",
     "build": "brunch build --optimize"
   },
   "dependencies": {
-		"statik": ">=1.1.0",
-		"brunch": "1.x",
-    "imageoptmizer-brunch": "0.0.6"
+    "brunch": "^2.10.9",
+    "imageoptmizer-brunch": "0.0.6",
+    "statik": "^1.4.6"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",
-    "brunch": "^2",
     "clean-css-brunch": "^2",
     "sass-brunch": "^2.10.4",
     "uglify-js-brunch": "^2"

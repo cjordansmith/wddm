@@ -15,7 +15,7 @@ exports.config = {
 
 	plugins: {
 		imageoptimizer: {
-			smushit: false,
+			smushit: true,
 			path: 'assets/img'
 		}
 	}
